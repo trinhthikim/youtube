@@ -1,0 +1,79 @@
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.01);
+	border-radius: 8px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.01);
+	background-color: #c2c2c2;
+}
+.menu {
+    overflow-y: scroll;
+    position: absolute;
+    width: 224px;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    padding-right: 16px;
+    padding-left: 0;
+    margin-top: 0;
+}
+.group-menu{
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.item-menu {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 24px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.item-menu .icon-menu {
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
+.icon-menu-svg {
+    fill:#606060
+}
+.content-menu {
+    font-size: 14px;
+    font-weight: 500;
+    color: #030303;
+}
+.group-menu h3 {
+    padding: 8px 24px;
+    color: #606060;
+    font-size: 14px;
+    margin: 0;
+}
+.icon-menu-circle {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+.content-menu a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #030303;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.copy{
+    padding: 16px 24px;
+    color: #909090;
+    font-size: 12px;
+}
